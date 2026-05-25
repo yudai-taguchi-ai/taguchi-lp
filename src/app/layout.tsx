@@ -3,13 +3,13 @@ import "./globals.css";
 import { LangProvider } from "@/i18n/LangContext";
 
 export const metadata: Metadata = {
-  title: "Taguchi Yudai — 田口 雄大",
+  title: "田口 雄大 — 中小企業のAI業務実装",
   description:
-    "戦略AI・強化学習・マルチエージェント・LLM。大阪公立大学 情報工学科 2年。OIF代表 / GDGoC OMU Founder。",
+    "中小企業の現場にAIを実装。要件整理から開発・運用まで一貫して伴走します。田口雄大 / Taguchi Yudai の個人ページ。",
   openGraph: {
-    title: "Taguchi Yudai — 田口 雄大",
+    title: "田口 雄大 — 中小企業のAI業務実装",
     description:
-      "Strategic AI × Multi-Agent × LLM. Osaka Metropolitan University.",
+      "中小企業の現場にAIを実装。要件整理から開発・運用まで一貫して伴走します。",
     type: "website",
   },
 };

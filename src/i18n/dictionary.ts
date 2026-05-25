@@ -52,19 +52,19 @@ export const dict: Record<Lang, Dict> = {
       contact: "Contact",
     },
     hero: {
-      tagline: "戦略AI × マルチエージェント × LLM",
+      tagline: "中小企業のAI業務実装",
       name: "田口 雄大",
       nameRoman: "Taguchi Yudai",
       affiliation: "大阪公立大学 情報工学科 2年",
       lead:
-        "戦略AI・強化学習・マルチエージェントを軸に、学生コミュニティ運営と研究の両輪で動いています。",
-      ctaContact: "Contact",
-      ctaActivities: "活動を見る",
+        "中小企業の現場にAIを実装します。業務理解・要件整理から開発・運用まで一貫して伴走し、現場に根付く仕組みづくりを支援します。",
+      ctaContact: "ご相談する",
+      ctaActivities: "詳しく見る",
     },
     about: {
       title: "About",
       body:
-        "大阪公立大学 情報工学科の2年生。学内ではAIサークル OIF（OMU Innovation Frontier）を立ち上げて代表を務め、GDGoC OMUの Founder / Co-Organizer としても活動。インターンではAffectifyでOMU+とPortal AIの開発、takeforestで中小企業向けAI経営戦略の研究開発に取り組んでいます。研究テーマは戦略AI・強化学習・マルチエージェント・LLM。",
+        "大阪公立大学 情報工学科 2年。中小企業向けのAI業務実装を主な活動としています。takeforestでは中小企業向けAI経営戦略の研究開発、株式会社AffectifyではOMU+とPortal AIの開発に従事。学内ではAIサークル OIF（OMU Innovation Frontier）を創設・代表として運営し、GDGoC OMUのFounder / Co-Organizerも務めています。",
     },
     activities: {
       title: "Activities",
@@ -109,7 +109,8 @@ export const dict: Record<Lang, Dict> = {
     },
     contact: {
       title: "Contact",
-      lead: "共同研究・コミュニティ・お仕事のご連絡はこちらまで。",
+      lead:
+        "AI業務実装のご相談・お見積もり、その他お問い合わせはこちらまで。お気軽にご連絡ください。",
       emailLabel: "Email",
       xLabel: "X (Twitter)",
       copy: "クリックでコピー",
@@ -129,20 +130,20 @@ export const dict: Record<Lang, Dict> = {
       contact: "Contact",
     },
     hero: {
-      tagline: "Strategic AI × Multi-Agent × LLM",
+      tagline: "AI Implementation for SMEs",
       name: "Yudai Taguchi",
       nameRoman: "田口 雄大",
       affiliation:
         "B.S. Information Engineering, Osaka Metropolitan University (2nd year)",
       lead:
-        "Working at the intersection of strategic AI, reinforcement learning, and multi-agent systems — alongside building student tech communities.",
-      ctaContact: "Contact",
-      ctaActivities: "See activities",
+        "I help small and medium-sized enterprises put AI to work — from understanding your operations and scoping the right solution to implementation and run.",
+      ctaContact: "Get in touch",
+      ctaActivities: "Learn more",
     },
     about: {
       title: "About",
       body:
-        "Second-year undergraduate in Information Engineering at Osaka Metropolitan University. Founded and lead OIF (OMU Innovation Frontier), the campus AI club, and serve as Founder / Co-Organizer of GDGoC OMU. As an intern, I build OMU+ and Portal AI at Affectify, and research AI business strategy for SMEs at takeforest. Research interests: strategic AI, reinforcement learning, multi-agent systems, and LLMs.",
+        "Second-year undergraduate in Information Engineering at Osaka Metropolitan University. I focus on AI implementation for small and medium-sized enterprises. At takeforest Inc. I work on R&D for AI-driven business strategy for SMEs, and at Affectify Inc. I develop OMU+ and Portal AI. I also founded and lead OIF (OMU Innovation Frontier), the campus AI club, and serve as Founder / Co-Organizer of GDGoC OMU.",
     },
     activities: {
       title: "Activities",
@@ -192,7 +193,8 @@ export const dict: Record<Lang, Dict> = {
     },
     contact: {
       title: "Contact",
-      lead: "Open to research collaboration, community, and work inquiries.",
+      lead:
+        "Open to AI implementation projects, consulting requests, and other inquiries. Feel free to reach out.",
       emailLabel: "Email",
       xLabel: "X (Twitter)",
       copy: "Click to copy",
