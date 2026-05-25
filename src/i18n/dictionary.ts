@@ -1,6 +1,48 @@
 export type Lang = "ja" | "en";
 
-export const dict = {
+export type ActivityItem = {
+  role: string;
+  name: string;
+  desc: string;
+  url: string;
+};
+
+export type CredentialItem = { name: string; note: string };
+
+export type Dict = {
+  nav: {
+    about: string;
+    activities: string;
+    credentials: string;
+    research: string;
+    contact: string;
+  };
+  hero: {
+    tagline: string;
+    name: string;
+    nameRoman: string;
+    affiliation: string;
+    lead: string;
+    ctaContact: string;
+    ctaActivities: string;
+  };
+  about: { title: string; body: string };
+  activities: { title: string; items: ActivityItem[] };
+  credentials: { title: string; items: CredentialItem[] };
+  research: { title: string; items: string[] };
+  contact: {
+    title: string;
+    lead: string;
+    emailLabel: string;
+    xLabel: string;
+    copy: string;
+    copied: string;
+  };
+  footer: { copy: string };
+  langToggle: { ja: string; en: string };
+};
+
+export const dict: Record<Lang, Dict> = {
   ja: {
     nav: {
       about: "About",
@@ -161,6 +203,4 @@ export const dict = {
     },
     langToggle: { ja: "JA", en: "EN" },
   },
-} as const;
-
-export type Dict = (typeof dict)["ja"];
+};
